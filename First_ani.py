@@ -65,7 +65,7 @@ class TreeAnimation(Scene):
         self.wait(2)
         
         k = 0.01
-        ending = Text("DFS Animation Complete. Explore the Code on GitHub!", color=PURPLE)
+        ending = Text("Explore the Code on My GitHub!", color=PURPLE)
         ending.move_to(intro.get_center())
         
         # Creating VGroup Object to store the objects of all Nodes
